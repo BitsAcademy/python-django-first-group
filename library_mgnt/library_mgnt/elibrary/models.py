@@ -2,7 +2,7 @@ from __future__ import unicode_literals
 import datetime
 from django.db import models
 from django.contrib.auth.models import User
-
+#comment 
 # Create your models here.
 BOOK_CATEGORY = (('eng', 'ENGINEERING'), ('doc', 'DOCTOR'),\
  ('csit', 'CSIT'), ('arc', 'ARCHITECT'), ('ca', 'CHARTERED ACCOUNT'))
