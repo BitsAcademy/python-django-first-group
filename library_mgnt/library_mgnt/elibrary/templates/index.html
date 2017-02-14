@@ -1,0 +1,9 @@
+<h1> Welcome to Elibrary of KEC </h1>
+{{ name }}
+<a href="{% url 'student-record' %}"> student record</a>
+
+{% for book in books %}
+<b>{{ book.name }}</b></br>
+<h3>{{ book.author }}</h3></br>
+<h4>{{ book.publication }}</h4></br>
+{% endfor %}
